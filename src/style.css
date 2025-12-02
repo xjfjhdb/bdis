@@ -1,0 +1,23 @@
+:root {
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+  --primary-color: #004098; /* 实验室核心蓝 */
+  --bg-color: #f7f9fc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: #333;
+}
+
+#app {
+  width: 100%; /* 修复无法铺满全屏的问题 */
+  margin: 0;
+  padding: 0;
+}
+
+a { text-decoration: none; color: inherit; transition: color 0.3s; }
+ul, li { list-style: none; padding: 0; margin: 0; }
